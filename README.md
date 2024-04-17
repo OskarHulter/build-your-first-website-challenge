@@ -76,6 +76,7 @@ Let's try to open the file in our browser to see what we can find.
 
 
 ## Open the file in Live Server
+
 A browser can access a website by visting the correct web address. This is how your users will open the html file you are about to create.
 This address is commonly referrred to as an Uniform Resource Locator (URL).
 
@@ -99,3 +100,12 @@ Note the missing s after http.
 - As a web user, always make sure to visit pages with active SSL protection (visible by a lock beside the URL)
 - While we are developing our page, it's OK to remove this protective layer.
 
+## Adding classes
+
+Visual Studio Code can sometimes infer what you want to do based on the context:
+- put your cursor inside a tag
+- press c
+- press TAB
+- class="" should replace your c
+
+If this doesn't work, just type it out manually.
