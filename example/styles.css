@@ -55,7 +55,7 @@ html {
 body {
     font-family: 'Lato', sans-serif;
     color: #fff;
-
+    /* feel free to experiment with other images, unsplash has good free "
     /* background-image: url("https://unsplash.com/photos/silhouette-of-mountains-next-to-body-of-water-2-MmXpeN8YE"); */
     /* background-image: url("https://unsplash.com/photos/green-and-yellow-ceramic-vase-HfhjNA0TYYU"); */
     /* background-image: url("https://unsplash.com/photos/purple-blue-and-brown-abstract-painting-xcXXKZyprRA"); */
@@ -101,3 +101,13 @@ body {
 .link:hover {
     color: rgba(255, 255, 255, 1);
 }
+
+.article {
+    
+}
+
+.wrapper {
+    min-height: 100%;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+  }
