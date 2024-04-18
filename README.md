@@ -1,5 +1,6 @@
 # build-your-first-website-challenge
-This repo contains a challenge that allows the reader to practice html &amp; CSS.
+
+This repo contains a challenge for practicing html &amp; CSS.
 
 Welcome to the website building challenge.
 
@@ -111,5 +112,6 @@ Visual Studio Code can sometimes infer what you want to do based on the context:
 If this doesn't work, just type it out manually.
 
 
-- css img example
-- Add theme example
+## Good luck!
+
+And remember, The only failure is not trying.
