@@ -109,3 +109,7 @@ Visual Studio Code can sometimes infer what you want to do based on the context:
 - class="" should replace your c
 
 If this doesn't work, just type it out manually.
+
+
+- css img example
+- Add theme example
