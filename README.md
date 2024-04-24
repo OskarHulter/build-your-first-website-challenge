@@ -1,117 +1,44 @@
-# build-your-first-website-challenge
+# basics of html and css
 
-This repo contains a challenge for practicing html &amp; CSS.
+Please use the accompanying resource available as a handy reference for basic concepts and syntax.
 
-Welcome to the website building challenge.
+[Go to the documentation site]
 
-You have been picked to create the website for an exciting new ai startup.
+## Create your first website
 
-## Prerequisite
+A personal website is the perfect first project for learning programming.
+Try to use a combination of resources to create a minimum viable product.
+Challenge yourself to create a minimal layout.
 
-- Visual Studio Code (VSC)
-- Live Server extension
+A few shortcuts can sometimes keep it simple, like this vertical centering technique for putting children in the middle of a parent. 
 
-Clone this repository into your Visual Studio Code instance.
-This guide assumes that you are using VSC, but any editor will work.
-
-## Viewing the files
-
-The files of the repo are visible in the explorer area of your editor.
-This section is visible on the lefthand side of the screen by default.
-
-If you don't see the explorer area, try activating the explorer:
-- click the top left icon called Explorer 
-- use the shortcut shift+cmd+e
-
-## Folder structure
-
-- The example styles are located in the "styles" directory.
-- The example html files are located in the "examples" directory.
-- You will be working at the top level of the directory, commonly referred to as the root.
-
-## Add Live Server
-
-We will use an extension called Live Server to enable a feature called live reloading.
-Live reloading reloads or refreshes the entire app when a file changes. 
-For example, if you were four links deep into your navigation and saved a change, live reloading would restart the app and load the app back to the initial route.
-
-Skip this step if you already have the extension.
-
-- open the Extensions Marketplace by clicking the icon depicting four boxes (lowest top left by default) or using the shortcut shift+cmd+x
-- this feature allows most of our code edits to be visibile directly in the browser.
-- some changes, like editing references to external files, can cause the server to lose track of the changes.
-- if this happens, restart the server.
-
-## Add a new file
-- bring your cursor above the root area of the explorer
-- right click in the explorer area to open the context menu
-- click new file
-- enter the file name: index.html
-- double click the file to open it in its own window
-
-## Add the basic html structure
-We will use a handy shortcut that is available by default. Make sure your blinking cursor is at the top of the page then follow these instructions.
-
-- write a single exclamation mark: !
-- press the TAB key on your keyboard (above caps-lock on my keyboard layout)
-- take a sip of your coffe while the shortcut does the work
-- save your work by pressing cmd+s or by navigating the top menu: File > Save.
-
-If the command was successfull, your file will contain the following structure:
-
-```html
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
-</html>
+```css
+.class {
+    margin: 0 auto;
+}
 ```
 
-Let's try to open the file in our browser to see what we can find.
+Full explanation available on the popular programming community:
+[stack overflow question about margin 0 auto](https://stackoverflow.com/questions/3170772/what-does-auto-do-in-margin-0-auto)
 
 
-## Open the file in Live Server
+## Having trouble? flexbox to the rescue!
 
-A browser can access a website by visting the correct web address. This is how your users will open the html file you are about to create.
-This address is commonly referrred to as an Uniform Resource Locator (URL).
+Flexbox is a modern display system that spreads items over a vertical area by default. Try to replicate a layout that you find on youtube - flexbox has too many parameters to learn them by heart. Let your needs decide what to focus on.
 
-- click the button saying "Go Live" in the lower right of the status bar to turn the server on/off.
-- accept any security prompts that ask for permission to access the network.
-- right-click on the file you want to open and select "Open with Live Server"
+[Learn flexbox the easy way](https://www.youtube.com/watch?v=u044iM9xsWU)
 
-- It's common to get an error at this point: 
-- If the error code is "ERR_SSL_PROTOCOL_ERROR" then your browser is trying to verify the existance of a signed security certificate (SSL) that we haven't added.
-- The fix is to remove the s from the https prefix inside the url bar.
-- Modern browsers might hide this section, try clicking in the url field to reveal it
-- if it still doesn't show, just use the link below or write out the full:
+### Full html & css intro playlist on youtube
 
-URL to use as a dev without SSL to your local host:
-```
-http://127.0.0.1:5500/
-```
-Note the missing s after http.
+My pick for best youtube channel on the topic: Kevin from CSS trcks!
+Repeat topics that become relevant for your personal project, often in the form of bugs.
 
-- Without SSL a malicious user can read or edit the messages passed between the server and the client.
-- As a web user, always make sure to visit pages with active SSL protection (visible by a lock beside the URL)
-- While we are developing our page, it's OK to remove this protective layer.
-
-## Adding classes
-
-Visual Studio Code can sometimes infer what you want to do based on the context:
-- put your cursor inside a tag
-- press c
-- press TAB
-- class="" should replace your c
-
-If this doesn't work, just type it out manually.
+[Intro to html & CSS playlist](https://www.youtube.com/playlist?list=PL4-IK0AVhVjM0xE0K2uZRvsM7LkIhsPT-)
 
 
-## Good luck!
+### Fix the background image sizing problem we encountered:
 
-And remember, The only failure is not trying.
+[Controlling background-images](https://www.youtube.com/watch?v=3T_Jy1CqH9k&list=PL4-IK0AVhVjPRj8P56TtFX2hg33BlbT3x)
+
+
+[Go to the documentation site]: https://oskarhulter.github.io/sln-spellbook/
